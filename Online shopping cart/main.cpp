@@ -5,7 +5,7 @@
 /*
  Author:Eric Han
  Date:Sepetember 19 2018        \t|" << endl;
- Course name and section:CS 215-005
+ Program name: Online shopping 
  Program description: funtion as an online shopping site
  */
 
@@ -183,7 +183,7 @@ void makeOrder(inventoryItem inventory[], int numberOfInvItems, int lastOrdNUm,b
   cout << "Thank you for your order!\n";
   displayOrder(cart[numOfOrders-1]);
   system ("pause");
-}//unfinshed goonna put in the main function
+}
 
 void listOrders(basket cart[], int numOfOrders){//delete global variable, use num of order instead pass around
   cout << "+-----------------------------------------------------------+\n";
@@ -249,7 +249,7 @@ int main() {
    option = getMainOption();
   }
   writeOrders(cart, numOfOrders);
-  //  displayInventory(inventory, numInvItems);
+
   
   cout << endl;
   system("pause");
